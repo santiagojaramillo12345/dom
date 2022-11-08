@@ -16,3 +16,28 @@ etiquetaImagen.src="./img/saitama_puños.jpg"
 
 let etiquetaTitulo=document.getElementById("titulo")
 etiquetaTitulo.textContent="Historia"
+
+//2.3 controlar es agregar estilos
+etiquetaTitulo.classList.add("fuente,alineado")
+
+//2.4 controlador es remover estilos
+let etiquetaparrafo=document.getElementById("parrafo")
+etiquetaparrafo.classList.remove("text-danger")
+
+//Controlar es Dectectar Eventos
+
+
+
+
+let etiquetabotom=document.getElementById("botom")
+etiquetabotom.addEventListener("click",function(Evento){
+Evento=true
+if (Evento=true){etiquetaImagen.src="./img/Saitama.webp"
+
+}else 
+
+if(Evento=false)
+;etiquetaImagen.src="./img/saitama_puños.jpg"
+Evento=true
+}
+)
